@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+	int i,j;
+	clrscr();
+
+	printf("\n using for loop");
+	for(i=1; i<10; i++)
+	{
+		printf("%d",i);
+	}
+
+	printf("\n using for loop");
+	j=1;
+	while(j<=10)
+	{
+		printf(" %d",j);
+		j++;
+	}
+	getch();
+}
